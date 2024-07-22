@@ -120,7 +120,7 @@ def Heart_fixed(hand_landmarks):
         [clamp(x - 20, 0, 200), clamp(y - 20, 0, 200)],                 # 80% of the landmark point
         [clamp(x - 15, 0, 200), clamp(y - 30, 0, 200)],                 # 85% of the landmark point
         [clamp(x - 5, 0, 200), clamp(y - 25, 0, 200)],                  # 95% of the landmark point
-        [clamp(x, 0, 200), clamp(y - 20, 0, 200)],                  # 95% of the landmark point
+        [clamp(x, 0, 200), clamp(y - 20, 0, 200)],                      # 95% of the landmark point
         [clamp(x + 5, 0, 200), clamp(y - 25, 0, 200)],                  # 105% of the landmark point
         [clamp(x + 15, 0, 200), clamp(y - 30, 0, 200)],                 # 115% of the landmark point
         [clamp(x + 20, 0, 200), clamp(y - 20, 0, 200)],                 # 120% of the landmark point
